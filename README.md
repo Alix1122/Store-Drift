@@ -64,10 +64,21 @@ ecommerce/
 ---
 
 📸 Captures d’écran
+
 <img width="1620" height="880" alt="image" src="https://github.com/user-attachments/assets/b2db02f9-f635-40ef-89b7-c080a356990f" />
 
-Panier	Dashboard
-(à ajouter)	(à ajouter)	(à ajouter)
+
+Panier
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06b320d3-09a3-4636-ad95-2672de09136c" />
+
+
+Dashboard
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7365bce4-b381-4b33-98ec-f88361e88c2f" />
+
+
+
 🔗 Liens utiles
 Lien	URL
 🌐 Site en ligne	ali-devv.kesug.com/ecommerce/front/index.php
