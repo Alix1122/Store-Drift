@@ -59,3 +59,11 @@ Le site permet aux utilisateurs de parcourir les produits, de les ajouter au pan
 ---
 
 ## 📂 Structure du projet
+
+ecommerce/
+├── front/ # Pages publiques (accueil, panier, produit, catégorie)
+├── admin/ # Pages d'administration
+├── include/ # Fichiers inclus (database, nav, head, counter)
+├── assets/ # CSS pur, JavaScript, images
+├── upload/produit/ # Images des produits
+└── database/ # Export SQL
