@@ -81,8 +81,14 @@ Dashboard
 
 🔗 Liens utiles
 Lien	URL
-🌐 Site en ligne	ali-devv.kesug.com/ecommerce/front/index.php
-📁 Dépôt GitHub	github.com/Alix1122/ecommerce-pfe
+🌐 Site en ligne	
+ali-devv.kesug.com/ecommerce/front/index.php
+
+
+📁 Dépôt 
+GitHub	github.com/Alix1122/ecommerce-pfe
+
+
 🎯 Conclusion
 DRIFT est un projet e-commerce complet développé avec PHP, MySQL, CSS pur et JavaScript.
 Il couvre le frontend, le backend, la gestion du panier (avec tailles), des commandes et un dashboard admin.
