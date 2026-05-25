@@ -96,12 +96,11 @@ DRIFT est un projet e-commerce complet développé avec PHP, MySQL, CSS pur et J
 Il couvre le frontend, le backend, la gestion du panier (avec tailles), des commandes et un dashboard admin.
 Ce projet représente l’aboutissement de ma formation en développement informatique.
 
-📞 Contact
+📞 Contact - Ali BOUTOUZZAZE
 -
-Ali BOUTOUZZAZE-
 📧 aboutouzzaze@gmail.com
 
--
+--
 
 🔗 [(ton LinkedIn)](https://www.linkedin.com/in/boutouzzaze-ali-7925b23b4 )
 
