@@ -29,7 +29,6 @@ Ce projet a été réalisé dans le cadre de mon **Projet de Fin d’Études (PF
 - Validation de commande
 - Inscription / Connexion
 - Lightbox pour les images
-- Mode clair / sombre
 - Animations au scroll
 - Design responsive (CSS pur)
 
