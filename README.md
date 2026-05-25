@@ -64,7 +64,7 @@ ecommerce/
 ---
 
 📸 Captures d’écran
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2db02f9-f635-40ef-89b7-c080a356990f" />
+<img width="1620" height="880" alt="image" src="https://github.com/user-attachments/assets/b2db02f9-f635-40ef-89b7-c080a356990f" />
 
 Panier	Dashboard
 (à ajouter)	(à ajouter)	(à ajouter)
