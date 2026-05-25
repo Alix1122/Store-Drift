@@ -86,15 +86,18 @@ Lien	URL
 ali-devv.kesug.com/ecommerce/front/index.php
 
 📁 Dépôt 
+-
 GitHub	github.com/Alix1122/ecommerce-pfe
 
 
 🎯 Conclusion
+-
 DRIFT est un projet e-commerce complet développé avec PHP, MySQL, CSS pur et JavaScript.
 Il couvre le frontend, le backend, la gestion du panier (avec tailles), des commandes et un dashboard admin.
 Ce projet représente l’aboutissement de ma formation en développement informatique.
 
 📞 Contact
+-
 Ali BOUTOUZZAZE
 📧 (ton email)
 🔗 (ton LinkedIn – optionnel)
