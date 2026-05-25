@@ -62,38 +62,7 @@ ecommerce/
 ├── upload/produit/ # Images des produits
 └── database/ # Export SQL
 
-text
-
 ---
-
-## 🚀 Installation locale
-
-1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/Alix1122/ecommerce-pfe.git
-Déplacer dans XAMPP/WAMP
-Copier le dossier dans htdocs
-
-Importer la base de données
-
-Créer une base ecommerce dans phpMyAdmin
-
-Importer database/ecommerce.sql
-
-Configurer la base de données
-Modifier include/database.php :
-
-php
-$host = 'localhost';
-$dbname = 'ecommerce';
-$user = 'root';
-$pass = '';
-Accéder au site
-
-Front : http://localhost/ecommerce/front/index.php
-
-Admin : http://localhost/ecommerce/index.php
-(login : admin, mot de passe : 1234)
 
 📸 Captures d’écran
 Page d’accueil	Panier	Dashboard
