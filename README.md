@@ -100,6 +100,9 @@ Ce projet représente l’aboutissement de ma formation en développement inform
 -
 Ali BOUTOUZZAZE
 📧 aboutouzzaze@gmail.com
-🔗 [(ton LinkedIn – optionnel)](https://www.linkedin.com/in/boutouzzaze-ali-7925b23b4 )
+
+-
+
+🔗 [(ton LinkedIn)](https://www.linkedin.com/in/boutouzzaze-ali-7925b23b4 )
 
 © 2025 – Projet de fin d’études | IFT Mohammedia
