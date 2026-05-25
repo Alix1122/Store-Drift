@@ -54,7 +54,6 @@ Ce projet a été réalisé dans le cadre de mon **Projet de Fin d’Études (PF
 
 ## 📂 Structure du projet
 ecommerce/
-
 ├── front/ # Pages publiques
 ├── admin/ # Dashboard admin
 ├── include/ # Fichiers inclus (database, nav, head)
