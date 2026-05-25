@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRIFT E-commerce - Projet PFE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #121212 100%);
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #2563eb, #60a5fa);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            margin-top: 0.5rem;
+        }
+
+        .section {
+            margin: 3rem 0;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2563eb;
+            border-left: 4px solid #2563eb;
+            padding-left: 1rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .feature-card {
+            background: #121212;
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: #2563eb;
+        }
+
+        .feature-card i {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            background: #1e293b;
+            color: #94a3b8;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 0.25rem;
+        }
+
+        .links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-secondary {
+            border: 1px solid #2563eb;
+            color: #2563eb;
+        }
+
+        .btn-secondary:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+        .screenshot {
+            background: #121212;
+            border-radius: 16px;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid #1e293b;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid #1e293b;
+            margin-top: 3rem;
+            color: #94a3b8;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏔️ DRIFT E-commerce</h1>
+            <p class="subtitle">Plateforme e-commerce dédiée aux passionnés de sports d'hiver et d'outdoor</p>
+        </header>
+
+        <div class="links">
+            <a href="http://ali-devv.kesug.com/ecommerce/front/index.php" target="_blank" class="btn btn-primary">
+                🌐 Voir le site en ligne
+            </a>
+            <a href="https://github.com/Alix1122/ecommerce-pfe" target="_blank" class="btn btn-secondary">
+                📁 Voir le code source
+            </a>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📖 À propos du projet</h2>
+            <p>
+                DRIFT est une boutique en ligne complète spécialisée dans les vêtements et accessoires outdoor 
+                (goggles, vestes, pantalons, gants, casquettes, shorts). Le site permet aux utilisateurs de 
+                parcourir les produits, de les ajouter au panier avec choix de la taille (XS à XXL), de passer 
+                commande, et aux administrateurs de gérer le contenu.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">✨ Fonctionnalités</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i>🛍️</i>
+                    <h3>Catalogue produits</h3>
+                    <p>Affichage par catégorie avec images, prix et remises</p>
+                </div>
+                <div class="feature-card">
+                    <i>📏</i>
+                    <h3>Gestion des tailles</h3>
+                    <p>Tailles disponibles : XS, S, M, L, XL, XXL</p>
+                </div>
+                <div class="feature-card">
+                    <i>🛒</i>
+                    <h3>Panier dynamique</h3>
+                    <p>Ajout, modification, suppression avec mémoire de la taille</p>
+                </div>
+                <div class="feature-card">
+                    <i>📦</i>
+                    <h3>Validation commande</h3>
+                    <p>Enregistrement en base de données</p>
+                </div>
+                <div class="feature-card">
+                    <i>👑</i>
+                    <h3>Dashboard admin</h3>
+                    <p>Gestion produits, catégories, commandes, statistiques</p>
+                </div>
+                <div class="feature-card">
+                    <i>📱</i>
+                    <h3>Responsive</h3>
+                    <p>Adaptation mobile, tablette, desktop (CSS pur)</p>
+                </div>
+                <div class="feature-card">
+                    <i>🌓</i>
+                    <h3>Mode clair / sombre</h3>
+                    <p>Bascule de thème avec mémorisation</p>
+                </div>
+                <div class="feature-card">
+                    <i>✨</i>
+                    <h3>Animations modernes</h3>
+                    <p>Scroll animations (AOS), micro-interactions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🛠️ Technologies utilisées</h2>
+            <div>
+                <span class="tech-badge">PHP 8</span>
+                <span class="tech-badge">MySQL</span>
+                <span class="tech-badge">PDO</span>
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3 pur</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">AOS.js</span>
+                <span class="tech-badge">InfinityFree</span>
+                <span class="tech-badge">Git / GitHub</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📸 Captures d'écran</h2>
+            <div class="features-grid">
+                <div class="screenshot">
+                    <p>🏠 Page d'accueil</p>
+                    <small>(Ajoute ta capture ici)</small>
+                </div>
+                <div class="screenshot">
+                    <p>🛒 Panier avec tailles</p>
+                    <small>(Ajoute ta capture ici)</small>
+                </div>
+                <div class="screenshot">
+                    <p>📊 Dashboard admin</p>
+                    <small>(Ajoute ta capture ici)</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔗 Liens utiles</h2>
+            <ul style="list-style: none; padding-left: 0;">
+                <li>🌐 <strong>Site en ligne :</strong> <a href="http://ali-devv.kesug.com/ecommerce/front/index.php" style="color: #2563eb;">http://ali-devv.kesug.com/ecommerce/front/index.php</a></li>
+                <li>📁 <strong>Code source :</strong> <a href="https://github.com/Alix1122/ecommerce-pfe" style="color: #2563eb;">https://github.com/Alix1122/ecommerce-pfe</a></li>
+                <li>📄 <strong>Rapport PFE :</strong> <a href="#" style="color: #2563eb;">(à ajouter)</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>© 2025 Ali BOUTOUZZAZE - Projet de fin d'études | IFT Mohammedia</p>
+        </footer>
+    </div>
+</body>
+</html>
